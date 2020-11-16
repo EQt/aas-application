@@ -60,8 +60,6 @@ def ut_string_base2_to_int(s):
     return int(s,2)
 
 def home(seed,sidebar_top):
-    st.write('---text---')
-
     st.subheader('Hinweise')
     st.markdown("""
         - Bei Eingaben von Folgen oder Mengen können die Elemente durch die Zeichen ' ', ',' oder ';' separiert werden.
